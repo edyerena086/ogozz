@@ -1,2 +1,11 @@
 // Import Fonts
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Open+Sans:400,600,700&display=swap');
+
+// Font sizes
+$font-tiny: $size-8;
+$font-small: $size-7;
+$font-normal: 1rem;
+$font-semi-medium: 1.25rem;
+$font-medium: $size-3;
+$font-semi-large: $size-2;
+$font-large: $size-1;

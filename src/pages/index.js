@@ -1,21 +1,23 @@
+// Import React
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+// Import Blocks
+import HomeHero from "blocks/HomeHero"
+import Layout from "blocks/Layout"
+import HomeServices from "blocks/HomeServices"
+import HomeTestimonials from "blocks/HomeTestimonials"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+// Data
+import { services, customerTestimonials } from "data/home"
 
-export default IndexPage
+export default class IndexPage extends React.Component {
+  render() {
+    return (
+      <Layout>
+        <HomeHero />
+        <HomeServices data={services} />
+        <HomeTestimonials data={customerTestimonials} />
+      </Layout>
+    )
+  }
+}

@@ -1,0 +1,37 @@
+.testimonial-card {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+
+  & .card-content {
+    color: $grey-lighter;
+    
+    & p {
+      font-family: $family-secondary;
+      font-size: $font-small;
+
+      &:first-of-type {
+        margin-bottom: 0.7rem;
+      }
+
+      & svg {
+        &:not(:last-of-type) {
+          margin-right: 0.3125rem;
+        }
+      }
+    }
+
+    & h5 {
+      font-family: $family-primary;
+      font-size: $font-semi-medium;
+      color: $grey-light;
+
+      & span {
+        display: block;
+        font-size: $font-small;
+        font-weight: $weight-normal;
+        color: $grey-lighter;
+      }
+    }
+  }
+}

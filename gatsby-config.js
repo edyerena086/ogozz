@@ -8,6 +8,15 @@ module.exports = {
   plugins: [
     'gatsby-plugin-resolve-src',
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `tomato`,
+        showSpinner: true,
+      }
+    },
     {
       resolve: `gatsby-plugin-sass`,
       options: {

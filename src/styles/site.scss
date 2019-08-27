@@ -1,9 +1,22 @@
+html {
+  font-size: 16px!important;
+}
+
 // Overrides
 @import "initialVars.scss";
-@import "typography.scss";
+@import "derivedVars.scss";
 
 @import "./../../node_modules/bulma/bulma.sass";
+
+@import "typography.scss";
 
 // Supersets for custom UI
 @import "../blocks/**/*.scss";
 @import "../elements/**/*.scss";
+
+// React Slick
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+// Import Global styling
+@import "global.scss";

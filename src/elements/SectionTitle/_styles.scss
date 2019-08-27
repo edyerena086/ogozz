@@ -1,0 +1,17 @@
+.section-title {
+  font-family: $family-secondary;
+  text-transform: uppercase;
+  font-weight: $weight-bold;
+  letter-spacing: 0.2rem;
+  font-size: $font-large;
+}
+
+.section-title-inverted {
+  font-family: $family-secondary;
+  text-transform: uppercase;
+  color: $white;
+  font-size: $font-medium;
+  border: 0.4rem solid $white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

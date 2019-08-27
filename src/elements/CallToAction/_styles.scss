@@ -1,0 +1,18 @@
+.call-to-action {
+  font-family: $family-secondary;
+  text-transform: uppercase;
+  font-size: $font-tiny;
+  color: $black;
+  border-right: 2px solid $black;
+  border-left: 2px solid $black;
+  padding: 0.75rem 1.7rem;
+  font-weight: $weight-bold;
+  transition: 0.5s;
+  display: inline-block;
+  margin-top: 2rem;
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+}

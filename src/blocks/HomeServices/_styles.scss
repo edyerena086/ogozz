@@ -1,0 +1,12 @@
+.home-service {
+
+  margin-bottom: 0!important;
+
+  & .service-description {
+    background-color: $white-ter;
+
+    & .content {
+      padding: 3rem;
+    }
+  }
+}

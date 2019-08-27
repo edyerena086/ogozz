@@ -1,0 +1,59 @@
+header {
+  .header-contact-info {
+    background-color: $grey-darker;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    line-height: 0;
+
+    & .container {
+      & .content {
+        & ul {
+          list-style-type: none;
+          margin: 0.5rem auto 0.6rem auto;
+
+          & li {
+            margin-bottom: 0;
+            
+            & a {
+              color: $white-ter;
+              font-family: $family-primary;
+              font-size: $font-tiny;
+
+              & svg {
+                margin-right: 0.25rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Navbar
+  .header-navbar {
+    background-color: $grey-darker;
+    border-top: 0.0625rem solid $black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    & .navbar {
+      background-color: transparent;
+
+      & .navbar-menu {
+        & .navbar-item {
+          font-size: $font-small;
+          font-family: $family-primary;
+          text-transform: uppercase;
+          font-weight: $weight-bold;
+          color: $grey;
+          transition: color 0.5s;
+
+          &:hover {
+            background-color: transparent;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
